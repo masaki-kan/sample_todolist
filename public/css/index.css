@@ -1,0 +1,422 @@
+body{
+    background: #e7e8e8;
+    margin: 0;
+    padding: 0; 
+}
+
+@media screen and (min-width:641px){
+    
+header{
+   width:100%;;
+   margin:0;
+   padding:0;
+   background: #0000ff;
+}
+#head-top{
+    width:100%;;
+   margin:0;
+   padding:0;   
+}
+.header-top{
+position: relative;
+
+
+}
+.header-top p{
+height: 44px;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 44px;
+}
+.header-top p a{
+    color:#fff;
+}
+.header-topnav ul{
+    display: block;
+    position: absolute;
+    padding: 0;
+    right: 0;
+    margin:0;
+}
+.header-topnav ul li{
+    display:table-cell;
+    width:46%;
+    margin:0 2%;
+}
+.header-topnav ul li a{
+    text-decoration:none;
+    height:44px;
+    line-height:44px;
+    text-align:center;
+    background-color:#0000ff;
+    width:96%;
+    padding:0 2%;
+    display:inline-block;
+    color:#fff;
+}
+.header-topnav ul li a:hover{
+    color:#0000ff;
+    background-color:#fff;
+
+}
+#header-topnav{
+    position: absolute;
+    width: 100%;
+    top: 0px;
+}
+.auth_name{
+     position: absolute;
+    top: 0;
+    height: 44px;
+    margin: 0;
+    line-height: 44px;  
+}
+.auth_name p{
+    color: #fff;
+    margin: 0;
+    padding-left: 5px;
+}
+main{
+    width: 100%;
+    margin-top: 60px;
+    padding: 0;
+}
+.data{
+    width:90%; 
+    margin:0 5%;
+}
+.datalist{
+    overflow: auto;
+display: inline-block;
+    width: 21%;
+    padding: 0 1% 20px 1%;
+    border-radius: 25px;
+    margin: 0 0.5% 30px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px 1px #ccc;
+}
+.list_btn{
+    display: flex;
+    width: 100%;
+}
+.list_btn button{
+    width: 40%;
+    margin: 5%;
+    text-align: center;
+    margin-bottom: 10px;
+    background: #000;
+    border-radius: 15px;
+    box-shadow: 1px 2px 7px -3px #333;
+}
+.list_btn button a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 10px 0;
+
+}
+.list_btn button:hover{
+   background:rgba(183,187,188,0.9); 
+}
+.list_btn button a:hover{
+    color:#000;
+}
+.datalist_title{
+    width: 100%;
+    margin-bottom:10px;
+}
+.datalist_title p{
+    width: 95%;
+    margin: 18px 2.5% 5px;
+    padding: 5px 0 5px 0;
+    background: #c8eaef;
+    border-radius: 10px;
+    text-align: center;
+}
+.cards{
+    width:98%;
+    margin:0 1%;
+}
+.cards a{
+     text-decoration: none;   
+}
+.cards a:hover .cardlist{
+   background:rgba(183,187,188,0.9); 
+   color:#000;
+}
+.cards a:hover .cardlist p{
+   color:#000;
+}
+.cardlist{
+    background:#fff;
+}
+.cardlist p{
+    margin:5px 0;
+    padding:5px 0px 5px 5px;
+    color:#999;
+}
+.card_add button{
+    width: 90%;
+    margin: 5%;
+    text-align: center;
+    margin-bottom: 10px;
+    background: #000;
+    border-radius: 15px;
+    box-shadow: 1px 2px 7px -3px #333;   
+}
+.card_add button a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 10px 0;
+}
+.card_add button:hover{
+   background:rgba(183,187,188,0.9); 
+}
+.card_add button a:hover{
+    color:#000;
+}
+.sec{
+    width:60%;
+    margin:0 auto;
+}
+.sec .text input{
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    
+}
+.sec .action{
+    border-radius: 20px;
+    font-size: 18px;
+    line-height: 2em;
+    background: #000;
+        color:#fff
+}
+
+.sec .action a{
+    text-decoration:none;
+    color:#fff
+}
+.sec .action:hover{
+ background: rgba(183,187,188,0.9);   
+}
+.sec textarea{
+    width:100%;
+}
+.sec .action a:hover{
+color:#000;
+}
+.errors{
+padding: 5px;
+    background: rgba(245,187,187,0.5);
+    margin:5px 0;
+}
+.errors h3,
+.errors p{
+    font-weight:bold;
+        color: #ff0000;
+}
+}
+
+@media screen and (max-width:640px){
+header{
+   width:100%;;
+   margin:0;
+   padding:0;
+}
+#head-top{
+    width:100%;;
+   margin:0;
+   padding:0;   
+}
+.header-top{
+    padding: 20px 0;
+    background: #0000ff;
+
+}
+.header-top p{
+    margin: 0;
+    width: 100%;
+    text-align:center;
+}
+.header-top p a{
+    color:#fff;
+}
+.header-topnav ul{
+    display: flex;
+    width: 100%;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+.header-topnav ul li{
+    display:table-cell;
+    width:46%;
+    margin:0 2%;
+    border-right:1px solid #fff;
+}
+.header-topnav ul li:last-child{
+    border-right:none;
+}
+.header-topnav ul li a{
+    text-decoration:none;
+    height:44px;
+    line-height:44px;
+    text-align:center;
+    background-color:#0000ff;
+    width:96%;
+    padding:0 2%;
+    display:inline-block;
+    color:#fff;
+}
+.header-topnav ul li a:hover{
+    color:#0000ff;
+    background-color:#fff;
+
+}
+.auth_name{
+    top: 0;
+    height: 44px;
+    margin: 0;
+    line-height: 44px;  
+}
+.auth_name p{
+    color: #fff;
+    margin: 0;
+    text-align: center;
+    background: #0000ff;
+}
+#header-topnav{
+    width: 100%;
+}
+main{
+    width: 100%;
+    margin-top: 60px;
+    padding: 0;
+}
+.data{
+    width:90%; 
+    margin:0 5%;
+}
+.datalist{
+verflow: auto;
+    display: inline-block;
+    width: 93%;
+    padding: 0 3% 20px 3%;
+    border-radius: 25px;
+    margin: 0 0 30px 0;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px 1px #ccc;
+}
+.list_btn{
+    display: flex;
+    width: 100%;
+}
+.list_btn button{
+    width: 40%;
+    margin: 5%;
+    text-align: center;
+    margin-bottom: 10px;
+    background: #000;
+    border-radius: 15px;
+    box-shadow: 1px 2px 7px -3px #333;
+}
+.list_btn button a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 10px 0;
+
+}
+.list_btn button:hover{
+   background:rgba(183,187,188,0.9); 
+}
+.list_btn button a:hover{
+    color:#000;
+}
+.datalist_title{
+    width: 100%;
+    margin-bottom:10px;
+}
+.datalist_title p{
+    width: 95%;
+    margin: 18px 2.5% 5px;
+    padding: 5px 0 5px 0;
+    background: #c8eaef;
+    border-radius: 10px;
+    text-align: center;
+}
+.cards{
+    width:98%;
+    margin:0 1%;
+}
+.cards a{
+     text-decoration: none;   
+}
+.cards a:hover .cardlist{
+   background:rgba(183,187,188,0.9); 
+   color:#000;
+}
+.cards a:hover .cardlist p{
+   color:#000;
+}
+.cardlist{
+    background:#fff;
+}
+.cardlist p{
+    margin:5px 0;
+    padding:5px 0px 5px 5px;
+    color:#999;
+}
+.card_add button{
+    width: 90%;
+    margin: 5%;
+    text-align: center;
+    margin-bottom: 10px;
+    background: #000;
+    border-radius: 15px;
+    box-shadow: 1px 2px 7px -3px #333;   
+}
+.card_add button a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 10px 0;
+}
+.card_add button:hover{
+   background:rgba(183,187,188,0.9); 
+}
+.card_add button a:hover{
+    color:#000;
+}
+.sec{
+    width:80%;
+    margin:0 auto;
+}
+.sec .text input{
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    
+}
+.sec textarea{
+    width:100%;
+}
+.sec .action{
+    border-radius: 20px;
+    font-size: 18px;
+    line-height: 2em;
+}
+.errors{
+padding: 5px;
+    background: rgba(245,187,187,0.5);
+    margin:5px 0;
+}
+.errors h3,
+.errors p{
+    font-weight:bold;
+        color: #ff0000;
+}
+}
+
